@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    xmlns:android="http://schemas.android.com/apk/res/android" />
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        style="@style/linearLayoutStyle"
+        tools:context="com.bedoya.esau.peluchitos.MainActivity">
+
+        <TextView
+            style="@style/textViewStyle.Title"
+            android:text="@string/titulo"/>
+
+        <LinearLayout
+           style="@style/linearLayoutStyle"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="@string/nproducto"
+                    android:textSize="16dp"/>
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_weight="2"
+                    android:layout_height="wrap_content"
+                    android:textSize="12dp"
+                    android:id="@+id/eNombre"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="@string/cantidad"
+                    android:textSize="16dp"/>
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_weight="2"
+                    android:layout_height="wrap_content"
+                    android:textSize="12dp"
+                    android:inputType="number"
+                    android:id="@+id/eCantidad"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preciou"
+                    android:textSize="16dp"/>
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_weight="2"
+                    android:layout_height="wrap_content"
+                    android:textSize="12dp"
+                    android:inputType="number"
+                    android:id="@+id/ePrecio"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            style="@style/linearLayoutStyle">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="12dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="@string/nuevo"
+                    android:id="@+id/bNuevo"/>
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="12dp"
+                    android:layout_gravity="center"
+                    android:text="@string/actualizar"
+                    android:id="@+id/bActualizar"/>
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="12dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="@string/buscar"
+                    android:id="@+id/bBuscar"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="12dp"
+                    android:layout_gravity="center"
+                    android:text="@string/eliminar"
+                    android:id="@+id/bEliminar"/>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="12dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="@string/inventario"
+                    android:id="@+id/bInvent"/>
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="12dp"
+                    android:layout_gravity="center"
+                    android:text="@string/ventas"
+                    android:id="@+id/bVentas"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="12dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="@string/ganancia"
+                    android:id="@+id/bGana"/>
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="12dp"
+                    android:layout_gravity="center"
+                    android:text="@string/limpiar"
+                    android:id="@+id/bLimpiar"/>
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/linearLayoutStyle">
+
+            <TextView
+                style="@style/textViewStyle.Content"
+                android:id="@+id/resultado"
+                android:layout_gravity="left"
+                android:gravity="left"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

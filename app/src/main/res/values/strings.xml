@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">PeluchitosApp</string>
+    <string name="titulo">TIENDA PELUCHITOS.COM</string>
+    <string name="nuevo">Nuevo</string>
+    <string name="buscar">Buscar</string>
+    <string name="eliminar">Eliminar</string>
+    <string name="actualizar">Actualizar</string>
+    <string name="inventario">Inventario</string>
+    <string name="ventas">Ventas</string>
+    <string name="nproducto">Nombre:</string>
+    <string name="cantidad">Cantidad:</string>
+    <string name="idp">ID:</string>
+    <string name="preciou">Precio:</string>
+    <string name="preciot">Precio Total:</string>
+    <string name="ganancia">Gananacias</string>
+    <string name="limpiar">Limpiar</string>
+</resources>
